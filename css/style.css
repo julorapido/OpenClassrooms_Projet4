@@ -1647,6 +1647,12 @@ body {
     color: white !important;
 }
 @media screen and  (max-width: 425px){
+    .footerpage2 .col-sm-12 > p {
+        font-size: 12px !important;
+    }
+    .scrollToTop {
+        display: none;
+    }
     .navpage2 li{
         width: 75% !important;
     }
