@@ -1470,6 +1470,7 @@ body {
     padding: 30px;
     background-color: #314070;
     border-radius: 30px;
+    margin-left: 20px;
     border: 2px solid white;
 }
 .imgcontainer > img{
@@ -1535,7 +1536,8 @@ body {
 
 @media screen and  (max-width: 950px){
     .imgcontainer{
-        margin-top: 50px;
+        margin:auto !important;
+        margin-top: 50px !important;
     }
     .descrow{
         flex-direction: column;
@@ -1629,10 +1631,9 @@ body {
 }
 .scrollToTop{
     background-color: #314070 !important;
-    text-align: center;
-    border-radius: 20px;
+    text-align: center !important;
+    border-radius: 15px;
     box-shadow: 4px 4px 0px #212b4c;
-    padding: 0 !important;
     padding: 10px !important;
     color: white !important;
     transition: 0.3s;
@@ -1651,7 +1652,8 @@ body {
         font-size: 12px !important;
     }
     .scrollToTop {
-        display: none;
+        display: block;
+        margin-bottom: 50px !important;
     }
     .navpage2 li{
         width: 75% !important;
@@ -1661,6 +1663,7 @@ body {
     }
     .form_column{
         padding: 5px !important;
+        margin-left: 10px !important;
     }
     .form_column textarea{
         width: 90%;
@@ -1674,4 +1677,18 @@ body {
     .footerbloc .col-sm-4 ul{
         padding-left: 0px !important;
     }
+    .formrow{
+        margin-left: 15px !important;
+    }
+}
+@media screen and  (max-width: 320px){
+    .scrollToTop {
+        display: none;
+    }
+}
+
+.formrow{
+    display: flex;
+    flex-direction: column;
+
 }
